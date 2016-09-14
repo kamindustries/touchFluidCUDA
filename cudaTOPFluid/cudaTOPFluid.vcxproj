@@ -113,7 +113,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
 copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
     <CudaCompile>
-      <Include>.;../../../../common/inc</Include>
+      <Include>.;$(CUDA_PATH)</Include>
       <CodeGeneration>compute_30,sm_30</CodeGeneration>
       <GenerateRelocatableDeviceCode>false</GenerateRelocatableDeviceCode>
     </CudaCompile>
