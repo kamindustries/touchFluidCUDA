@@ -36,7 +36,7 @@ CrashAutoSave*
 *.userprefs
 
 # Build results
-[Dd]ebug/*
+cudaTOPFluid/[Dd]ebug/*
 [Dd]ebugPublic/*
 [Rr]elease/
 [Rr]eleases/
@@ -270,6 +270,6 @@ _Pvt_Extensions
 ### End VisualStudio ###
 ##################################################################################
 
-!cudaTOPFluid/Debug/cudart32_50_35.dll
+!cudart32_50_35.dll
 !cudart64_50_35.dll
 !cudaTOPTemplate.dll
