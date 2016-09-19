@@ -36,11 +36,11 @@ CrashAutoSave*
 *.userprefs
 
 # Build results
-cudaTOPFluid/[Dd]ebug/*
+cudaTOPFluid/[Dd]ebug/
 [Dd]ebugPublic/*
 [Rr]elease/
 [Rr]eleases/
-x64/
+cudaTopFluid/x64/*/*
 x86/
 bld/
 [Bb]in/
@@ -272,4 +272,4 @@ _Pvt_Extensions
 
 !cudart32_50_35.dll
 !cudart64_50_35.dll
-!cudaTOPTemplate.dll
+!cudaTOPFluid.dll
